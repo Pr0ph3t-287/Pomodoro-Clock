@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro-Clock</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <<div id="pomodoro">
+	
+	<div id="title">Pomodoro Clock</div>
+	
+	<div id="controls-box">
+
+		<div id="session-box">
+			<div class="margin-5px">Session</div>
+			<button id="session-btn-add" class="margin-5px">+</button>
+			<div id="session" class="margin-5px">25</div>
+			<button id="session-btn-subtract" class="margin-5px">-</button>
+		</div>
+
+		<div id="break-box">
+			<div class="margin-5px">Break</div>
+			<button id="break-btn-add" class="margin-5px">+</button>
+			<div id="break" class="margin-5px">5</div>
+			<button id="break-btn-subtract" class="margin-5px">-</button>
+		</div>
+	</div>
+
+	<div id="timer-outer">
+	<div id="timer-box">
+		<div id="timer-inner-box">
+			<div id="runningTimer">Session</div>
+			<div id="timer"></div>
+		</div>
+		<div id="timer-control-box">
+			<button id="play">play</button>
+			<button id="pause">pause</button>
+			<button id="reset">reset</button>
+		</div>
+	</div>
+	</div>
+</div>
+</body>
+
+<script src="script.js"></script>
+</html>

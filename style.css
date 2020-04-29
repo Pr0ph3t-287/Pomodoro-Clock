@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+html {
+	font-family: "Source Code Pro", monospace;
+	font-weight: 500;
+	color: white;
+	margin: 0px;
+	background-color: #5C573E;
+}
+
+#pomodoro {
+  position: absolute;
+  top: 50%;
+	left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#title {
+	display: flex;
+	justify-content: center;
+	color: #C4F7A1;
+	font-size: 1.5em;
+}
+
+#controls-box {
+	display: flex;
+	justify-content: center;
+}
+
+#session-box {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	background-color: #C4F7A1;
+	border-radius: 4px;
+	color: black;
+	box-shadow: 3px 3px #888888;
+}
+
+#break-box {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	background-color: #C4F7A1;
+	border-radius: 4px;
+	color: black;
+	box-shadow: 3px 3px #888888;
+}
+
+#timer-outer {
+	display: flex;
+	justify-content: center;
+}
+
+#timer-box {
+	display: flex;
+	flex-direction: column;
+	background-color: #C4F7A1;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+	box-shadow: 3px 3px #888888;
+}
+
+#timer-inner-box {
+	margin: 10px;
+}
+
+#play { 
+	margin: 0px 0px 5px 5px;
+}
+
+#reset { 
+	margin: 0px 5px 5px 0px;
+}
+
+.margin-5px {
+	margin: 5px;
+}
+
+button {
+	background-color: #A5B452;
+	border-radius: 4px;
+	border: black;
+	box-shadow: 3px 3px #888888;
+	width: 50px;
+}
